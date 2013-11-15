@@ -39,25 +39,24 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
     gem install vagrant
 
     ## 安装方法二
-    wget http://files.vagrantup.com/packages/eb590aa3d936ac71cbf9c64cf207f148ddfc000a/Vagrant-1.0.3.dmg
-    open Vagrant-1.0.3.dmg
+    wget http://files.vagrantup.com/packages/a40522f5fabccb9ddabad03d836e120ff5d14093/Vagrant-1.3.5.dmg
+    open Vagrant-1.3.5.dmg
     open Vagrant.pkg
 
+### 第三步：在MacOSX上使用虚拟机Vagrantup
 
-### 第三步：在MacOSX上安装虚拟机Vagrantup
-
-    # 使用Vagrant
     # 打开终端
     vagrant
+    vagrant －v
+
+![软件世界：分布式虚拟开发环境工具Vagrant——第二步](https://lh6.googleusercontent.com/-EhKFObAJr7E/UBWYSsYOlCI/AAAAAAAADA8/g-Jz-NMBbg4/s400/vagrant-2012-07-31-0035.png)
 
 ### 第四步：在MacOSX上安装Vagran虚拟开发环境
 
 ### 参考资料
 ** http://www.virtualbox.org/wiki/Downloads
-** "http://downloads.vagrantup.com/tags/v1.0.3":http://downloads.vagrantup.com/tags/v1.0.3
-** "http://vagrantup.com/":http://vagrantup.com/
-** "https://gist.github.com/2714101":https://gist.github.com/2714101
-** "https://github.com/mitchellh/vagrant/":https://github.com/mitchellh/vagrant/
+** http://downloads.vagrantup.com/
+** https://gist.github.com/2714101
 
 ## Next Steps
 
