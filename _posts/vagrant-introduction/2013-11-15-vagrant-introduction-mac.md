@@ -25,15 +25,13 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 
 <table style="width:auto;" align="center"><tr><td><a href="http://www.virtualbox.org"><img src="https://lh5.googleusercontent.com/-UsQU-0JYftc/UBWDM0mUQPI/AAAAAAAADAg/WPRYESh_rvA/s400/virtualbox-2012-07-3-0035.png" height="331" width="400" title="软件世界：分布式虚拟开发环境工具Vagrant——第一步" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="https://picasaweb.google.com/108648193569540005514/LycomDe?authuser=0&authkey=Gv1sRgCLT6rdayz_bm-gE&feat=embedwebsite">lycom.de</a></td></tr></table>
 
-<script src="https://gist.github.com/3201150.js">/*
-** 在MacOSX上安装虚拟机VirtualBox
-wget http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg
-open VirtualBox-4.1.18-78361-OSX.dmg
-open /Volumes/VirtualBox/VirtualBox.mpkg
+  ** 在MacOSX上安装虚拟机VirtualBox
+  wget http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg
+  open VirtualBox-4.1.18-78361-OSX.dmg
+  open /Volumes/VirtualBox/VirtualBox.mpkg
 
-** 启动虚拟机VirtualBox
-open /Applications/VirtualBox.app
-*/</script>
+  ** 启动虚拟机VirtualBox
+  open /Applications/VirtualBox.app
 
 ### 第二步：在MacOSX上安装虚拟机Vagrantup
 
