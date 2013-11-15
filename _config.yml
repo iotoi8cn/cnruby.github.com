@@ -11,10 +11,10 @@ pygments: true
 title : 道喜技术日记 .^. 天天红玉世界
 tagline: Site Tagline
 author :
-  name : Gudao Luo
+  name : Gudao Luo / 骆古道
   email : Gudao.Luo@gmail.com
   github : cnruby
-  twitter : username
+  twitter : cnruby
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://cnruby.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -100,7 +100,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-126050-5'
     getclicky :
       site_id : 
     mixpanel :
