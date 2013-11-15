@@ -21,6 +21,17 @@ Vagrant provides easy to configure, reproducible, and portable work environments
 
 To achieve its magic, Vagrant stands on the shoulders of giants. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can be used to automatically install and configure software on the machine.
 
+### 第一步：在MacOSX上安装虚拟机VirtualBox
+
+    ** 在MacOSX上安装虚拟机VirtualBox
+    wget http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg
+    open VirtualBox-4.1.18-78361-OSX.dmg
+    open /Volumes/VirtualBox/VirtualBox.mpkg
+
+    ** 启动虚拟机VirtualBox
+    open /Applications/VirtualBox.app
+
+### 第二步：在MacOSX上安装虚拟机Vagrantup
 
 ## Next Steps
 
