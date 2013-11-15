@@ -51,7 +51,10 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
 
 ![软件世界：分布式虚拟开发环境工具Vagrant——第二步](https://lh6.googleusercontent.com/-EhKFObAJr7E/UBWYSsYOlCI/AAAAAAAADA8/g-Jz-NMBbg4/s400/vagrant-2012-07-31-0035.png)
 
-### 第四步：在MacOSX上安装Vagran虚拟开发环境
+### 第四步：在MacOSX上安装Vagrant虚拟开发环境
+
+
+
 
 ### 参考资料
 ** http://www.virtualbox.org/wiki/Downloads
