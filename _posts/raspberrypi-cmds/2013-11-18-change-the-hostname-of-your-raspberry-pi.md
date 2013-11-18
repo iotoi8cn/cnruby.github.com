@@ -13,9 +13,9 @@ tags : [intro, beginner, raspberrypi, tutorial]
   sudo vim /etc/hosts
   sudo reboot
 
-![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称]https://plus.google.com/108648193569540005514/posts/Nb9PRc5o9L1)
+![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称](https://lh4.googleusercontent.com/-DA0IaMRjqgA/UoqBYvsfz-I/AAAAAAAAF3k/sylJ3Jjx2OA/w697-h500-no/2013-11-18-2159.png)
 
-![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称](https://plus.google.com/u/0/photos?pid=5947708519464741234&oid=108648193569540005514)
+![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称](https://lh3.googleusercontent.com/-ro-kRK6RS8s/UoqHeENYvyI/AAAAAAAAF6Y/RglQA2U7mdE/w506-h321/2013-11-18-2202.png)
 
 
 ## Next Steps
