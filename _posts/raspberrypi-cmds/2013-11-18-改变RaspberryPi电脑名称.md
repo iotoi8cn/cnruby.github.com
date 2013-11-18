@@ -2,7 +2,7 @@
 layout: post
 category : raspberrypi
 tagline: "change the hostname of your raspberry pi"
-tags : [intro, beginner, raspberrypi, tutorial, RaspberryPi世界]
+tags : [intro, beginner, raspberrypi, tutorial, RaspberryPi世界, 入门教材, 初学者, 树莓派]
 ---
 {% include JB/setup %}
 
@@ -19,7 +19,7 @@ tags : [intro, beginner, raspberrypi, tutorial, RaspberryPi世界]
 ![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称](https://lh5.googleusercontent.com/-pnL5M4Qp94s/UoqNpAmV_PI/AAAAAAAAF9c/AMyEptWCJvU/w506-h321/2013-11-18-2202.png)
 
 ### 参考资料
-** http://www.developpeers.com/blogs/change-the-hostname-of-your-raspberry-pi
+** [http://www.developpeers.com/blogs/change-the-hostname-of-your-raspberry-pi](http://www.developpeers.com/blogs/change-the-hostname-of-your-raspberry-pi)
 
 ## Next Steps
 
