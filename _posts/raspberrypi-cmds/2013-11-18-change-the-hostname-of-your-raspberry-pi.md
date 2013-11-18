@@ -19,7 +19,7 @@ tags : [intro, beginner, raspberrypi, tutorial]
 ![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称](https://lh5.googleusercontent.com/-pnL5M4Qp94s/UoqNpAmV_PI/AAAAAAAAF9c/AMyEptWCJvU/w506-h321/2013-11-18-2202.png)
 
 ### 参考资料
-![change-the-hostname-of-your-raspberry-pi](http://www.developpeers.com/blogs/change-the-hostname-of-your-raspberry-pi)
+** http://www.developpeers.com/blogs/change-the-hostname-of-your-raspberry-pi
 
 ## Next Steps
 
