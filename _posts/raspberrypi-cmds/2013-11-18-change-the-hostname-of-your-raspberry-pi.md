@@ -1,12 +1,12 @@
 ---
 layout: post
 category : raspberrypi
-tagline: "Supporting tagline"
+tagline: "改变Raspberry Pi电脑名称"
 tags : [intro, beginner, raspberrypi, tutorial]
 ---
 {% include JB/setup %}
 
-### 改变Raspberry Pi电脑名称
+### Raspberry Pi电脑世界：改变Raspberry Pi电脑名称
 
     # 在RaspberryPi上执行下面命令，
     # 把默认名称raspberrypi修改为自己电脑名称gbooks：
