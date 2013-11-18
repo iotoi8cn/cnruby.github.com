@@ -6,7 +6,7 @@ tags : [intro, beginner, raspberrypi, tutorial, RaspberryPi世界]
 ---
 {% include JB/setup %}
 
-### RaspberryPi世界：改变Raspberry Pi电脑名称
+### RaspberryPi世界：改变RaspberryPi电脑名称
 
     # 在RaspberryPi上执行下面命令，
     # 把默认名称raspberrypi修改为自己电脑名称gbooks：
@@ -25,3 +25,5 @@ tags : [intro, beginner, raspberrypi, tutorial, RaspberryPi世界]
 
 Please take a look at [{{ site.categories.api.first.title }}]({{ BASE_PATH }}{{ site.categories.api.first.url }})
 or jump right into [Usage]({{ BASE_PATH }}{{ site.categories.usage.first.url }}) if you'd like.
+
+change-the-hostname-of-your-raspberry-pi
