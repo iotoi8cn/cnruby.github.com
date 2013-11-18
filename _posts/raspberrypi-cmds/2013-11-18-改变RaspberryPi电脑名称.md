@@ -1,7 +1,7 @@
 ---
 layout: post
 category : raspberrypi
-tagline: "改变Raspberry Pi电脑名称"
+tagline: "change the hostname of your raspberry pi"
 tags : [intro, beginner, raspberrypi, tutorial, RaspberryPi世界]
 ---
 {% include JB/setup %}
@@ -26,4 +26,3 @@ tags : [intro, beginner, raspberrypi, tutorial, RaspberryPi世界]
 Please take a look at [{{ site.categories.api.first.title }}]({{ BASE_PATH }}{{ site.categories.api.first.url }})
 or jump right into [Usage]({{ BASE_PATH }}{{ site.categories.usage.first.url }}) if you'd like.
 
-change-the-hostname-of-your-raspberry-pi
