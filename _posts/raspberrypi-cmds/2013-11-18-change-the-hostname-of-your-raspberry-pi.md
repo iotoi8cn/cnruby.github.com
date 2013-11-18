@@ -6,16 +6,16 @@ tags : [intro, beginner, raspberrypi, tutorial]
 ---
 {% include JB/setup %}
 
-### 第一步：在MacOSX上安装虚拟机VirtualBox
+### 改变Raspberry Pi电脑名称
 
   # 在RaspberryPi上执行下面命令，把raspberrypi修改为自己希望的电脑名称gbooks：
   sudo vim /etc/hostname
   sudo vim /etc/hosts
   sudo reboot
 
-![软件世界：分布式虚拟开发环境工具Vagrant——第一步]https://plus.google.com/u/0/photos?pid=5947708520016105442&oid=108648193569540005514)
+![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称]https://plus.google.com/108648193569540005514/posts/Nb9PRc5o9L1)
 
-![软件世界：分布式虚拟开发环境工具Vagrant——第一步](https://plus.google.com/u/0/photos?pid=5947708519464741234&oid=108648193569540005514)
+![Raspberry Pi电脑世界：改变Raspberry Pi电脑名称](https://plus.google.com/u/0/photos?pid=5947708519464741234&oid=108648193569540005514)
 
 
 ## Next Steps
