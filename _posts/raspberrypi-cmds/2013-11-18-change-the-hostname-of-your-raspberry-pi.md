@@ -1,4 +1,4 @@
-3---
+---
 layout: post
 category : raspberrypi
 tagline: "Supporting tagline"
@@ -8,7 +8,8 @@ tags : [intro, beginner, raspberrypi, tutorial]
 
 ### 改变Raspberry Pi电脑名称
 
-    # 在RaspberryPi上执行下面命令，把raspberrypi修改为自己希望的电脑名称gbooks：
+    # 在RaspberryPi上执行下面命令，
+    # 把raspberrypi修改为自己希望的电脑名称gbooks：
     sudo vim /etc/hostname
     sudo vim /etc/hosts
     sudo reboot
