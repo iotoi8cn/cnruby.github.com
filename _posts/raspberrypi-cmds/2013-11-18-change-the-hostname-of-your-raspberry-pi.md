@@ -8,7 +8,7 @@ tags : [intro, beginner, raspberrypi, tutorial]
 
 ### 第一步：在MacOSX上安装虚拟机VirtualBox
 
-  # 在RaspberryPi上执行下面命令，把raspberrypi修改为自己希望的电脑名称：
+  # 在RaspberryPi上执行下面命令，把raspberrypi修改为自己希望的电脑名称gbooks：
   sudo vim /etc/hostname
   sudo vim /etc/hosts
   sudo reboot
