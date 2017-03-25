@@ -55,7 +55,7 @@ Here's a sample "posts list".
     bundle update github-pages
     bundle exec jekyll serve --watch --incremental
     open http://127.0.0.1:4000/
-    git push origin master
+    git push origin master or GitHub Desktop >> Commit to master >> Menu >> Repository >> Push
 
 ## To-Do
 
