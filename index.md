@@ -7,9 +7,13 @@ tagline: Supporting tagline
 
 ## First Posts
 
+- Read [Websites for you and your projects.](https://pages.github.com/)
+
 - Read [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
 - Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
+- Read [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
 
 - Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
