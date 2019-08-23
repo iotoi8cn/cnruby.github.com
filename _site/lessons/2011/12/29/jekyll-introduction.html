@@ -94,6 +94,8 @@
     
   
     
+  
+    
       
     
   
@@ -196,7 +198,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
 
 <p>Jekyll expects your website directory to be laid out like so:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
 |-- _config.yml
 |-- _includes
 |-- _layouts
@@ -211,8 +213,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
     |-- css
         |-- style.css
     |-- javascripts
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>
@@ -291,12 +292,11 @@ Note categories in Jekyll work in a specific way.
 If you define more than one category you are defining a category hierarchy “set”.
 Example:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>---
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title :  Hello World
 categories : [lessons, beginner]
 ---
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This defines the category hierarchy “lessons/beginner”. Note this is <em>one category</em> node in Jekyll.
 You won’t find “lessons” and “beginner” as two separate categories unless you define them elsewhere as singular categories.</p>
@@ -317,12 +317,11 @@ Pages do not compute categories nor tags so defining them will have no effect.</
 If pages are defined in sub-directories, the path to the page will be reflected in the url.
 Example:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
 |-- people
     |-- bob
         |-- essay.html
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This page will be available at <code class="highlighter-rouge">http://yourdomain.com/people/bob/essay.html</code></p>
 
@@ -458,15 +457,14 @@ This is the only way Jekyll knows you want the file processed.</p>
 
 <p>YAML Front Matter must be prepended to the top of template/post/page files:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>---
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: post
 category : pages
 tags : [how-to, jekyll]
 ---
 
 ... contents ...
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block.
 The data inside the block must be valid YAML.</p>
@@ -625,7 +623,7 @@ or jump right into <a href="">Usage</a> if you’d like.</p>
       </div>
       <hr>
       <footer>
-        <p>&copy; 2017 Gudao Luo / 骆古道
+        <p>&copy; 2019 Gudao Luo / 骆古道
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>

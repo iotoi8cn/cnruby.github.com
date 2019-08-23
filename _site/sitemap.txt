@@ -7,6 +7,7 @@ http://cnruby.github.io/pages
 http://cnruby.github.io/rss.xml
 http://cnruby.github.io/sitemap.txt
 http://cnruby.github.io/tags
+http://cnruby.github.io/assets/css/style.css
 http://cnruby.github.io/History
 
 http://cnruby.github.io/raspberrypi/2013/11/18/%E6%94%B9%E5%8F%98RaspberryPi%E7%94%B5%E8%84%91%E5%90%8D%E7%A7%B0

@@ -94,6 +94,8 @@
     
   
     
+  
+    
       
     
   
@@ -140,15 +142,14 @@
 
 <p>In <code class="highlighter-rouge">_config.yml</code> remember to specify your own data:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>title : My Blog =)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>title : My Blog =)
 
 author :
   name : Name Lastname
   email : blah@email.test
   github : username
   twitter : username
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The theme should reference these variables whenever needed.</p>
 
@@ -157,9 +158,8 @@ author :
 <p>This blog contains sample posts which help stage pages and blog data.
 When you don’t need the samples anymore just delete the <code class="highlighter-rouge">_posts/core-samples</code> folder.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ rm -rf _posts/core-samples
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ rm -rf _posts/core-samples
+</code></pre></div></div>
 
 <p>Here’s a sample “posts list”.</p>
 
@@ -177,14 +177,15 @@ When you don’t need the samples anymore just delete the <code class="highlight
 
 <h2 id="quick-commands">Quick Commands</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/cnruby/cnruby.github.com
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/GITROOT/cnruby
+git clone https://github.com/cnruby/cnruby.github.com
+cd cnruby.github.com
 bundle install
 bundle update github-pages
 bundle exec jekyll serve --watch --incremental
 open http://127.0.0.1:4000/
-git push origin master
-</code></pre>
-</div>
+git push origin master or GitHub Desktop &gt;&gt; Commit to master &gt;&gt; Menu &gt;&gt; Repository &gt;&gt; Push
+</code></pre></div></div>
 
 <h2 id="to-do">To-Do</h2>
 
@@ -199,7 +200,7 @@ We need to clean up the themes, make theme usage guides with theme-specific mark
       </div>
       <hr>
       <footer>
-        <p>&copy; 2017 Gudao Luo / 骆古道
+        <p>&copy; 2019 Gudao Luo / 骆古道
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
