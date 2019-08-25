@@ -6,6 +6,8 @@ categories: jekyll update
 ---
 * mkdir _news
 * touch _news/2019-08-26-news.markdown
+* touch news.markdown
+
 * vi _config.yml
 {% highlight ruby %}
 ...
