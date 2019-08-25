@@ -38,6 +38,10 @@ plugins:
 collections:
   tools:
     output: true
+  rust:
+    output: true
+  news:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
