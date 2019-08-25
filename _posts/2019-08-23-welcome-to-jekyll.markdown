@@ -4,9 +4,17 @@ title:  "Welcome to Jekyll!"
 date:   2019-08-23 15:24:35 +0200
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+* mkdir _news
+* touch _news/2019-08-26-news.markdown
+* vi _config.yml
+{% highlight ruby %}
+...
+collections:
+  news:
+    output: true
+{% endhighlight ruby %}
 
-Jekyll requires blog post files to be named according to the following format:
+ post files to be named according to the following format:
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
