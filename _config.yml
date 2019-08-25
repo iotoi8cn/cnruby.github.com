@@ -42,6 +42,9 @@ collections:
     output: true
   news:
     output: true
+  crates:
+    output: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
