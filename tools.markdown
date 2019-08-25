@@ -4,8 +4,6 @@ title: 开发工具
 permalink: /tools/
 ---
 
-<h1>Staff</h1>
-
 <ul>
   {% for item in site.tools %}
     <li>
