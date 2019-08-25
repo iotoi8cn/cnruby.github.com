@@ -36,7 +36,8 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  _tools:
+  tools:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
