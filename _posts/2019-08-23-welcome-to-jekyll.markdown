@@ -1,12 +1,25 @@
 ---
 layout: page
-title:  "Welcome to Jekyll!"
+title:  "How to create the folder in Jekyll!"
 date:   2019-08-23 15:24:35 +0200
-categories: jekyll update
+categories: posts
 ---
-* mkdir _news
-* touch _news/2019-08-26-news.markdown
-* touch news.markdown
+
+## How to create the folder in Jekyll!
+- make a new folder
+
+{% highlight %}
+mkdir _news
+{% endhighlight %}
+
+- create and edit a new listingsfile news.markdown
+{% highlight %}
+touch news.markdown
+vi news.markdown
+{% endhighlight %}
+
+- add the follow code to the file news.markdown
+
 {% highlight %}
 ---
 layout: page
@@ -25,31 +38,20 @@ permalink: /news/
 </ul>
 {% endhighlight %}
 
-* vi _config.yml
+- edit the file _config.yml
+
+{% highlight %}
+vi _config.yml
+{% endhighlight %}
+
+- add the follow code to the file _config.yml
+
 {% highlight %}
 ...
 collections:
   news:
     output: true
-{% endhighlight ruby %}
-
- post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
+- create a new artile
+touch _news/2019-08-26-news.markdown
