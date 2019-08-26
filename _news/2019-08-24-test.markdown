@@ -5,6 +5,31 @@ date:   2019-08-23 15:24:35 +0200
 categories: news
 ---
 
+
+### ttiel:news
+
+{% highlight rust %}
+fn print_hi(name: &str) { 
+  println!("Hi, ", name);
+}
+println!("Tom");
+{% endhighlight %}
+
+
+{% highlight rust %}
+fn print_hi(name: &str) { 
+  println!("Hi, ", name);
+}
+println!("Tom");
+{% endhighlight %}
+
+{% highlight rust %}
+fn print_hi(name: &str) { 
+  println!("Hi, ", name);
+}
+println!("Tom");
+{% endhighlight %}
+
 {% highlight rust %}
 fn print_hi(name: &str) { 
   println!("Hi, ", name);

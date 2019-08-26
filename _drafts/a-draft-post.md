@@ -1,0 +1,1 @@
+Drafts are posts without a date in the filename. 
