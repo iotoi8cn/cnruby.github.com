@@ -8,19 +8,19 @@ categories: posts
 ## How to create the folder in Jekyll!
 - make a new folder
 
-{% highlight %}
+{% highlight bash %}
 mkdir _news
 {% endhighlight %}
 
 - create and edit a new listingsfile news.markdown
-{% highlight %}
+{% highlight bash %}
 touch news.markdown
 vi news.markdown
 {% endhighlight %}
 
 - add the follow code to the file news.markdown
 
-{% highlight %}
+{% highlight markdown %}
 ---
 layout: page
 title: 新闻报道
@@ -40,13 +40,13 @@ permalink: /news/
 
 - edit the file _config.yml
 
-{% highlight %}
+{% highlight bash %}
 vi _config.yml
 {% endhighlight %}
 
 - add the follow code to the file _config.yml
 
-{% highlight %}
+{% highlight yaml %}
 ...
 collections:
   news:
