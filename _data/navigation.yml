@@ -1,6 +1,20 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.markdown
-- name: Tools
-  link: /tools.markdown
+# Sample site navigation bar links
+
+- title: Home
+  url: /
+- title: News
+  url: /news/
+- title: Rust
+  url: /rust/
+- title: Crates
+  url: /crates/
+- title: Tools
+  url: /tools/
+#- title: Categories
+#  url: /categories/
+#- title: Tags
+#  url: /tags/
+- title: Search
+  url: /search/
+- title: External Page
+  url: https://github.com/mmistakes/so-simple-theme

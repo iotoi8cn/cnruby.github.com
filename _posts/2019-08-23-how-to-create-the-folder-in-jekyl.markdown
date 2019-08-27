@@ -2,11 +2,10 @@
 layout: page
 title:  "How to create the folder in Jekyll!"
 date:   2019-08-23 15:24:35 +0200
-categories: news
+categories: posts
 ---
 
 - make a new folder
-
 {% highlight bash %}
 mkdir _news
 {% endhighlight %}

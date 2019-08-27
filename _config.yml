@@ -21,30 +21,110 @@
 title: Rust语言之道
 email: gudao.luo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  报道Rust语言新闻、工具、软件包、技术等。
+  关注Rust语言新闻、工具、软件包和技术报道等。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cnruby
 github_username:  cnruby
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-so-simple
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_cratess"
+      type: cratess
+    values:
+      layout: post
+      comments: true
+      share: true
+  # Recipe defaults
+  - scope:
+      path: "_tools"
+      type: tools
+    values:
+      layout: post
+      comments: true
+      share: true
+  - scope:
+      path: "_rust"
+      type: rust
+    values:
+      layout: post
+      comments: true
+      share: true
+
+# Site Author
+author:
+  name: Michael Rose
+  picture: /images/michael-rose-photo.jpg
+  email:
+  twitter: mmistakes
+  links:
+    - title: Twitter
+      url: https://twitter.com/mmistakes
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/mmistakes
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
+
+# Footer Links
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/mmistakes
+    icon: fab fa-twitter-square
+  - title: Instagram
+    url: https://instagram.com/mmistakes
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/mmistakes
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
+
+# Build settings
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: false
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Collections
 collections:
-  tools:
-    output: true
-  rust:
-    output: true
   news:
     output: true
+    permalink: /:collection/:path/
+  tools:
+    output: true
+    permalink: /:collection/:path/
+  rust:
+    output: true
+    permalink: /:collection/:path/
   crates:
     output: true
-
+    permalink: /:collection/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
