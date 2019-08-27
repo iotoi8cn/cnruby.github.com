@@ -1,147 +1,132 @@
-# Welcome to Jekyll!
+# This is the default format. 
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter: true
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+title : 道喜技术日记 .^. 天天红玉世界
+tagline: Site Tagline
+author :
+  name : Gudao Luo / 骆古道
+  email : Gudao.Luo@gmail.com
+  github : cnruby
+  twitter : cnruby
+  feedburner : feedname
+
+# The production_url is only used when full-domain names are needed
+# such as sitemap.txt 
+# Most places will/should use BASE_PATH to make the urls
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# If you have set a CNAME (pages.github.com) set your custom domain here.
+# Else if you are pushing to username.github.io, replace with your username.
+# Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+production_url : http://cnruby.github.io
+
+# All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+JB :
+  version : 0.3.0
 
-title: Rust语言之道
-email: gudao.luo@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  关注Rust语言新闻、工具、软件包和技术报道等。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cnruby
-github_username:  cnruby
+  # All links will be namespaced by BASE_PATH if defined.
+  # Links in your website should always be prefixed with {{BASE_PATH}}
+  # however this value will be dynamically changed depending on your deployment situation.
+  #
+  # CNAME (http://yourcustomdomain.com)
+  #   DO NOT SET BASE_PATH 
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Pages (http://username.github.io)
+  #   DO NOT SET BASE_PATH 
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Project Pages (http://username.github.io/project-name)
+  #
+  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #
+  # CAUTION:
+  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+  #   - Only the following values are falsy: ["", null, false]
+  #   - When setting BASE_PATH it must be a valid url.
+  #     This means always setting the protocol (http|https) or prefixing with "/"
+  BASE_PATH : false
 
-# Build settings
-# theme: minima
-theme: jekyll-theme-so-simple
+  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
+  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
+  #
+  # Override this by defining an absolute path to assets here.
+  # ex: 
+  #   http://s3.amazonaws.com/yoursite/themes/watermelon
+  #   /assets
+  #
+  ASSET_PATH : false
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
+  # These paths are to the main pages Jekyll-Bootstrap ships with.
+  # Some JB helpers refer to these paths; change them here if needed.
+  #
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
 
-# Front Matter Defaults
-defaults:
-  # Post defaults
-  - scope:
-      path: "_cratess"
-      type: cratess
-    values:
-      layout: post
-      comments: true
-      share: true
-  # Recipe defaults
-  - scope:
-      path: "_tools"
-      type: tools
-    values:
-      layout: post
-      comments: true
-      share: true
-  - scope:
-      path: "_rust"
-      type: rust
-    values:
-      layout: post
-      comments: true
-      share: true
+  # Settings for comments helper
+  # Set 'provider' to the comment provider you want to use.
+  # Set 'provider' to false to turn commenting off globally.
+  #
+  comments :
+    provider : disqus
+    disqus :
+      short_name : jekyllbootstrap
+    livefyre :
+      site_id : 123
+    intensedebate :
+      account : 123abc
+    facebook :
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
+   
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #        
+  analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-126050-5'
+    getclicky :
+      site_id : 
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'
+    piwik :
+        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        idsite : '1'                   # the id of the site on Piwik
 
-# Site Author
-author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
-  email:
-  twitter: mmistakes
-  links:
-    - title: Twitter
-      url: https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/mmistakes
-      icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/mmistakes
-      icon: fab fa-github-square
+  # Settings for sharing helper. 
+  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Set 'provider' to the sharing provider you want to use.
+  # Set 'provider' to false to turn sharing off globally.
+  #
+  sharing :
+    provider : false
+    
+  # Settings for all other include helpers can be defined by creating 
+  # a hash with key named for the given helper. ex:
+  #
+  #   pages_list :
+  #     provider : "custom"   
+  #
+  # Setting any helper's provider to 'custom' will bypass the helper code
+  # and include your custom code. Your custom file must be defined at:
+  #   ./_includes/custom/[HELPER]
+  # where [HELPER] is the name of the helper you are overriding.
+  
 
-# Footer Links
-footer_links:
-  - title: Twitter
-    url: https://twitter.com/mmistakes
-    icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/mmistakes
-    icon: fab fa-instagram
-  - title: GitHub
-    url: https://github.com/mmistakes
-    icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
-
-# Build settings
-markdown: kramdown
-feed:
-  path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
-
-# Search
-search_full_content: false
-
-# Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
-
-# Collections
-collections:
-  news:
-    output: true
-    permalink: /:collection/:path/
-  tools:
-    output: true
-    permalink: /:collection/:path/
-  rust:
-    output: true
-    permalink: /:collection/:path/
-  crates:
-    output: true
-    permalink: /:collection/:path/
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+theme: jekyll-theme-modernist
