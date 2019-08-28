@@ -11,15 +11,5 @@ tagline: Welcome!
   {% endfor %}
 </ul>
 
-## Quick Commands
-
-    cd ~/GITROOT/cnruby
-    git clone https://github.com/cnruby/cnruby.github.com
-    cd cnruby.github.com
-    bundle install
-    bundle update github-pages
-    bundle exec jekyll serve --watch --incremental
-    open http://127.0.0.1:4000/
-    git push origin master or GitHub Desktop >> Commit to master >> Menu >> Repository >> Push
 
 
