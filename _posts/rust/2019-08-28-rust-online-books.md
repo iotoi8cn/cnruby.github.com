@@ -28,6 +28,7 @@ categories: rust
 - [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/print.html) [Source Code](https://github.com/stevedonovan/gentle-intro)
 - [24 days of Rust](http://zsiciarz.github.io/24daysofrust/index.html) [Source Code](https://github.com/zsiciarz/24daysofrust)
 - [Learning Rust](https://learning-rust.github.io/docs/index.html) [Source Code](https://github.com/learning-rust)
+- [Rust Language Cheat Sheet](https://cheats.rs/)
 
 ### 第三方入门视频
 - [Videos about Rust](https://daily-rust.github.io/2016/09/01/videos.html)
