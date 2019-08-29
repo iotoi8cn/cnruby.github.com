@@ -32,9 +32,9 @@ categories: rust
 - [Learning Rust](https://learning-rust.github.io/docs/index.html) [Source Code](https://github.com/learning-rust)
 - [Rust Language Cheat Sheet](https://cheats.rs/)
 - [The Rust Programming Language](http://killercup.github.io/trpl-ebook/) [Source Code](https://github.com/ctjhoa/rust-learning)
-
-### 第三方入门视频
-- [Videos about Rust](https://daily-rust.github.io/2016/09/01/videos.html)
+- [Roguelike Tutorial](https://jaredonline.svbtle.com/roguelike-tutorial-table-of-contents)
+- [Rust Tutorial](http://aml3.github.io/RustTutorial/html/toc.html) >>> [Source Code](https://github.com/aml3/RustTutorial)
+- [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/) >>> [Source Code](https://github.com/rust-unofficial/too-many-lists)
 
 ### 第三方专题图书
 - ⭐[Rust-101](https://www.ralfj.de/projects/rust-101/main.html) >>> [Source Code](https://github.com/RalfJung/rust-101)
