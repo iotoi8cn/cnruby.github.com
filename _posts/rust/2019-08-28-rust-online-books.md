@@ -37,3 +37,4 @@ categories: rust
 - [Rust and WebAssembly](https://rustwasm.github.io/docs/book/) [Source Code](https://github.com/rustwasm/book)
 - [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/index.html)
 - [The `wasm-bindgen` Guide](https://rustwasm.github.io/docs/wasm-bindgen/)
+- [RUST : ERROR HANDLING](https://blog.burntsushi.net/rust-error-handling/)
