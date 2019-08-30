@@ -24,6 +24,6 @@ categories: rust
 - [probably the best place to get quick answers to your Rust questions if you like irc](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust)
 
 ### Videos for Rust
-- ⭐[Programmieren in Rust](https://www.youtube.com/watch?v=lQ36K1htRDY&list=PL0Ur-09iGhpwMbNiVTBeHmIjs0GuIXhNg)
+- ⭐[Programmieren in Rust](https://www.youtube.com/watch?v=lQ36K1htRDY&list=PL0Ur-09iGhpwMbNiVTBeHmIjs0GuIXhNg) [GitHub.com](https://github.com/LukasKalbertodt/programmieren-in-rust)
 - [Videos about Rust](https://daily-rust.github.io/2016/09/01/videos.html)
 - [Rustlang Screencasts](https://www.youtube.com/playlist?list=PLTOeCUgrkpMNEHx6j0vCH0cuyAIVZadnc)
