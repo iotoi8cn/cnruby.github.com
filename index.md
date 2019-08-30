@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 欢迎你!
-tagline: Welcome!
+tagline: Welcome! Willkommen!
 ---
 {% include JB/setup %}
 
